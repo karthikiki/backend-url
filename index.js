@@ -27,6 +27,6 @@ app.use('/users',usersRouter) ;
 
 app.use('/',mainRouter) ;
 
-app.listen(PORT, () => console.log(`The server started in: ${PORT}`));
+app.listen(PORT, () => console.log(`The server connected in  ${PORT}`));
 
 export { client };
